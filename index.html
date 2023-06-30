@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML</title>
+  <!-- HTML -->
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <script rel="stylesheet" href="Mian.php"></script>
+  	<script>
+  	  function showText() {
+  	    document.getElementById("inner-text").style.display = "block";
+  	  }
+  	</script>
+  	<script>
+  	  function showMyText() {
+  	    document.getElementById("a").style.display = "block";
+  	  }
+  	</script>
+  		<script>
+  		  function showMyTextnow() {
+  		    document.getElementById("b").style.display = "block";
+  		  }
+  		</script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="navbar">
+      <img src="imges/shoes-icon2.png" alt="" class="logo">
+      <nav>
+        <ul id="menulist">
+          <li><a href="#">New shoes</a></li>
+          <li> <a href="#">My Cart</a></li>
+          <li> <a href="#Bay-New">Bay New</a></li>
+          <li> <a href="#">Other</a></li>
+        </ul>
+      </nav>
+      <img src="imges/menu.png" alt="" class="menu-icon" onclick="togglemenu()">
+    </div>
+    <div class="row">
+      <div class="col-1">
+        <h2>Share <br>Messages the Smooth, Easy Way</h2>
+        <h3>to friends and families</h3>
+        <p>Choose from a variety of message cards available.</p>
+        <button type="button" id="Bay-New"><i>About Us</i><img src="imges/arrow.png" alt=""></button>
+      </div>
+      <div class="col-2">
+        <img src="imges/shoes.png" alt="" class="controller">
+        <div class="color-box"></div>
+        <div class="add-btn">
+          <img src="imges/add.png
+            " alt="">
+          <p><small>Add to cart</small></p>
+        </div>
+      </div>
+    </div>
+    <div class="social-links">
+      <a href="https://tiktok.com/@allanrye"><img src="imges/fb.png" alt="tiktok" /></a>
+      <a href="#"><img src="imges/ig.png" alt=""></a>
+      <a href=" https://www.instagram.com/Allanrye"><img src="imges/tw.png" alt="Instagram"></a>
+    </div>
+  </div>
+  <div class="product-back"></div>
+  <div class="left-side"></div>
+  <div class="rigth-side"></div>
+  </div>
+  </div>
+  <script src="main.js"></script>
+  <section class="Projects" id="Projects">
+    <div class="content">
+      <div class="Project-card">
+        <div class="Project-imges">
+         <a href="birthday-message-card.html"> <img src="imges/shoes-icon2.png" alt="birthday"></a>
+        </div>
+        <div class="Project-info">
+          <p class="Project-category">Birthday Message Card</p>
+ 
+        </div>
+        <p class="Project-title">
+         <span><p onclick="showText()"><span>Read More..</span></p>
+          <p  id="inner-text" style="display:none">
+          Best ways to send birthday 
+          wishes to friends and families 
+          in a smooth and well defined
+          format
+          
+        </p>
+                         
+           <span> <a href="birthday-message-card.html" class="more-details">share</a>
+             </span>
+        </span>
+        
+      </div>
+    </div>
+    <div class="content">
+      <div class="Project-card">
+       <a href="Love-letter-card.html"> <div class="Project-imges">
+          <img src="imges/shoes.png" alt="love-message"></a>
+        </div>
+        <div class="Project-info">
+          <p class="Project-category">Love Message Card</p>
+        </div>
+        <p class="Project-title">
+         <span><p onclick="showMyText()"
+         >Read More..</p>  <p id="a" style="display:none">
+          Best ways to send birthday 
+          wishes to friends and families 
+          in a smooth and well defined
+          format
+          
+        </p></span>
+          <a href="Love-letter-card.html" class="more-details">share</a>
+        </p>
+      </div>
+    </div>
+     
+<div class="content">
+      <div class="Project-card">
+       <a href="family-message-card.html"> <div class="Project-imges">
+          <img src="imges/shoes.png" alt="love-message"></a>
+        </div>
+        <div class="Project-info">
+          <p class="Project-category">Family Message Card</p>
+        </div>
+        <p class="Project-title">
+         <span>
+           <p onclick="showMyTextnow()"
+         ><span>Read More..</span>
+         <p id="b" style="display:none">
+          Best ways to send birthday 
+          wishes to friends and families 
+          in a smooth and well defined
+          format
+          
+        </p></span>
+          <a href="Love-letter-card.html" class="more-details">share</a>
+        </p>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
