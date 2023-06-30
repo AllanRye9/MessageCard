@@ -24,7 +24,17 @@
   		  function showMyTextnow() {
   		    document.getElementById("b").style.display = "block";
   		  }
-  		</script>
+</script>
+  		<script>
+  		  function showMyTextnowAgain() {
+  		    document.getElementById("c").style.display = "block";
+  		  }
+	</script>
+		<script>
+		  function wedding() {
+		    document.getElementById("d").style.display = "block";
+		  }
+		</script>
 </head>
 
 <body>
@@ -33,20 +43,48 @@
       <img src="imges/shoes-icon2.png" alt="" class="logo">
       <nav>
         <ul id="menulist">
-          <li><a href="#">New shoes</a></li>
-          <li> <a href="#">My Cart</a></li>
-          <li> <a href="#Bay-New">Bay New</a></li>
-          <li> <a href="#">Other</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li> <a href="#">Contact</a></li>
+          <li> <a href="signIn.html">Login</a></li>
+          <li> <a href="SignUp.html">SignUp.html</a></li>
         </ul>
       </nav>
       <img src="imges/menu.png" alt="" class="menu-icon" onclick="togglemenu()">
     </div>
     <div class="row">
       <div class="col-1">
-        <h2>Share <br>Messages the Smooth, Easy Way</h2>
+        <h2>Share <br>Messages
+        the Smooth, 
+              Easy 
+              Way.
+      </h2>
         <h3>to friends and families</h3>
         <p>Choose from a variety of message cards available.</p>
-        <button type="button" id="Bay-New"><i>About Us</i><img src="imges/arrow.png" alt=""></button>
+        
+ <div id="us" onclick="showMyTextnowAgain()">
+         <button type="button"><i>About Us</i> <img src="imges/arrow.png" alt=""></button>
+</p>
+
+ <p id="c" style="display:none">
+   Best ways to send birthday
+   wishes to friends and families
+   in a Sure, here are some words to describe a company that organizes birthday celebrations:
+   
+   1. Creative: A company that organizes birthday celebrations should be able to come up with unique and creative ideas to make the celebration special and memorable.
+   
+   2. Professional: The company should be reliable, organized, and punctual in delivering its services. A professional attitude can ensure that the client's needs are met efficiently.
+   
+   3. Personalized: Each birthday celebration is unique, and the company should be able to tailor their services to the specific needs and preferences of the client.
+   
+   4. Experienced: A company that has years of experience in organizing birthday celebrations will have the expertise to handle different types of events and ensure that everything runs smoothly.
+   
+   5. Affordable: The company should offer competitive pricing for its services, while still delivering high-quality results.
+   
+   6. Flexible: A good birthday celebration company should be able to accommodate last-minute changes and adjustments, and be open to working within the client's budget.
+   
+   7. Fun: Ultimately, the company should be able to inject a sense of joy and excitement into the celebration, making it a fun and memorable event for everyone involved.
+ </p>
+</div>
       </div>
       <div class="col-2">
         <img src="imges/shoes.png" alt="" class="controller">
@@ -54,7 +92,7 @@
         <div class="add-btn">
           <img src="imges/add.png
             " alt="">
-          <p><small>Add to cart</small></p>
+          <p><small>Add</small></p>
         </div>
       </div>
     </div>
@@ -83,7 +121,7 @@
         <p class="Project-title">
          <span><p onclick="showText()"><span>Read More..</span></p>
           <p  id="inner-text" style="display:none">
-          Best ways to send birthday 
+          Best ways to <send></send> birthday 
           wishes to friends and families 
           in a smooth and well defined
           format
@@ -131,6 +169,29 @@
            <p onclick="showMyTextnow()"
          ><span>Read More..</span>
          <p id="b" style="display:none">
+          Best ways to send birthday 
+          wishes to friends and families 
+          in a smooth and well defined
+          format
+          
+        </p></span>
+          <a href="Love-letter-card.html" class="more-details">share</a>
+        </p>
+      </div>
+    </div>
+<div class="content">
+      <div class="Project-card">
+       <a href="family-message-card.html"> <div class="Project-imges">
+          <img src="imges/shoes.png" alt="love-message"></a>
+        </div>
+        <div class="Project-info">
+          <p class="Project-category">wedding Message Card</p>
+        </div>
+        <p class="Project-title">
+         <span>
+           <p onclick="wedding()"
+         ><span>Read More..</span>
+         <p id="d" style="display:none">
           Best ways to send birthday 
           wishes to friends and families 
           in a smooth and well defined
